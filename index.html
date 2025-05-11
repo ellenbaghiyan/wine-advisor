@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <title>Գինու Խորհրդատու</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍷 Գինու Խորհրդատու</h1>
+    <p>Ընտրիր քո նախընտրությունները, և մենք կօգնենք քեզ գտնել համապատասխան գինի։</p>
+
+    <form id="wineForm">
+      <label for="taste">Համային պրոֆիլ</label>
+      <select id="taste" required>
+        <option value="">Ընտրել...</option>
+        <option value="մրգային">Մրգային</option>
+        <option value="փափուկ">Չոր</option>
+        <option value="փրփրուն">Փրփրուն</option>
+        <option value="փրփրուն">Կիսաքաղցր</option>
+      </select>
+
+      <label for="food">Ուտեստ</label>
+      <select id="food" required>
+        <option value="">Ընտրել...</option>
+        <option value="տավարի միս">Տավարի միս</option>
+        <option value="հավի միս">Հավի միս</option>
+        <option value="պանիր">Պանիր</option>
+        <option value="աղցաններ">Աղցաններ</option>
+        <option value="խորոված">Խորոված</option>
+      </select>
+
+      <button type="submit">Խորհուրդ տուր գինի 🍷</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
