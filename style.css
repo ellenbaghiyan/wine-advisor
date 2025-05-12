@@ -1,8 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f9f3f0;
-    color: #333;
-    padding: 40px;
+  font-family: Arial, sans-serif;
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  padding: 40px;
   }
   
   .container {
