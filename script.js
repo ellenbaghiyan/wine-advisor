@@ -2,7 +2,7 @@ const wines = [
     {
       name: "Արենի",
       origin: "Վայոց Ձոր",
-      grape: "Արենի Նուիր",
+      grape: "Արենի Նուար",
       pairing: "տավարի միս, պանիր",
       profile: "մրգային"
     },
@@ -10,8 +10,8 @@ const wines = [
       name: "Կաղնուտ",
       origin: "Արմավիր",
       grape: "Հաղթանակ",
-      pairing: "հավի միս, աղցաններ",
-      profile: "փափուկ"
+      pairing: "հավի միս, աղցան",
+      profile: "կարմիր, չոր"
     },
     {
       name: "Խնդողնի",
@@ -19,7 +19,60 @@ const wines = [
       grape: "Խնդողնի",
       pairing: "խորոված",
       profile: "փրփրուն"
-    }
+    },
+    {
+      name: "Տակառ",
+      origin: "Վայոց Ձոր",
+      grape: "Արենի",
+      pairing: "բրինձ, պաստա, աղցան",
+      profile: "rose´"
+    },
+    {
+      name: "Տակառ",
+      origin: "Վայոց Ձոր",
+      grape: "Կանգուն",
+      pairing: "ձուկ, հավի միս",
+      profile: "սպիտակ, կիսաքաղցր"
+    },
+    {
+      name: "Արազ",
+      origin: "Վայոց Ձոր",
+      grape: "Կանգուն, Մսխալի",
+      pairing: "ձուկ, հավի միս",
+      profile: "սպիտակ, կիսաչոր"
+    },
+    {
+      name: "Կուր",
+      origin: "Վայոց Ձոր",
+      grape: "Արենի",
+      pairing: "սթեյք, տավարի միս, խորոված",
+      profile: "կարմիր, կիսաքաղցր"
+    },
+    {
+      name: "Քյոշ",
+      origin: "Վայոց Ձոր",
+      grape: "Ոսկեհատ, Խաթունի",
+      pairing: "աղանդեր, պանիր, պանրի տեսականի",
+      profile: "փրփրուն"
+    },
+    {
+      name: "ՄՈՒՆՔ",
+      origin: "Վայոց Ձոր",
+      grape: "Սև Արենի, Խնդողնի, Նռնենի",
+      pairing: "սթեյք, խորոված, տավարի միս",
+      profile: "կարմիր, չոր"
+    },
+    {
+      name: "Ոսկեվազ Նուռ",
+      pairing: "հավի միս, տավարի միս, աղցան",
+      profile: "մրգային"
+    },
+    {
+      name: "Ծիրանի",
+      pairing: "աղանդեր, պանիր, պանրի տեսականի",
+      profile: "մրգային"
+    },
+
   ];
   
   document.getElementById("wineForm").addEventListener("submit", function(event) {
